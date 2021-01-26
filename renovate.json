@@ -1,0 +1,13 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "groupName": "async-graphql",
+      "depTypeList": ["dependencies", "devDependencies"],
+      "updateTypes": ["patch", "minor"],
+      "labels": ["type/deps"],
+      "semanticCommitType": "deps",
+      "packagePatterns": ["^async-graphql"]
+    }
+  ]
+}
