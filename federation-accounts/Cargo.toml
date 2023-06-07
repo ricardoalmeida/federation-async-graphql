@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 async-graphql = { version = "4.0.5", default-features = false }
-async-graphql-warp = "4.0.5"
+async-graphql-warp = "5.0.10"
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"] }
 warp = "0.3"
